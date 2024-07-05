@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav   {
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+nav > ul{
+    display: flex;
+    margin-right: 20%;
+}
+nav > ul>li{
+    list-style: none;
+    padding: 5px 20px;
+    margin-left: -40px;
+}
+nav > ul>li>a{
+    text-decoration: none;
+    border-right: 3px solid white;
+    padding: 20px;
+    transition: .5s;
+}
+
+nav > ul>li:first-child>a{
+    border-left: 3px solid white;
+    padding-left: 20px;
+}
+.anton-sc-regular {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 5px;
+    color: rgb(79, 176, 255);
+    font-size: larger;
+  }
+  
+
+.logo > a{
+    display: flex;
+    
+    align-items: center;
+    padding: 20px;
+    transition: .5s;
+    text-decoration: none;
+}
+
+
+.logo:hover {
+    background-color: rgba(240, 255, 255, 0.849);
+}
+nav > ul>li:hover>a{
+    background-color: aquamarine;
+    
+}
+
+nav > ul>li:hover>ul{
+    display: block;
+    /* background-color: rgb(219, 252, 241); */
+    position: absolute;
+}
+/* dropdown */
+.dropdown{
+    display: none;
+    
+    margin-top: 20px;
+    background-color: aqua;
+
+}
+.dropdown>li{
+    list-style: none;
+    margin-top: 15px;
+    
+    
+
+}
+.dropdown>li:last-child{
+    list-style: none;
+    margin-bottom: 15px;
+    
+    
+
+}
+.dropdown>li>a{
+    text-decoration: none;
+    padding: 20px;
+    margin: 3px;
+    
+}
+article{
+    border: 2px solid red;
+    width: 50%;
+    margin: auto;
+    margin-top: 15px;
+}
+article>header{
+    text-align: center;
+}
+article>header>h2{
+    margin: 5px 10px 3px;
+}
+article>figure>img{
+    max-height:100%; max-width:100%;
+}
+article>figure>figcaption{
+    text-align: center;
+}
+article>section{
+    margin: 20px;
+}
+main + footer{
+    text-align: center;
+}
+.article{
+    /* margin: 20px; */
+    /* text-align: center; */
+    width: 43%;
+    margin: auto;
+    margin-bottom:25px ;
+    margin-top: 15px;
+}
+.table{
+    text-align: center;
+    margin-top: 15px;
+    /* background-color: aquamarine; */
+    
+}
+
+table{
+    
+    border: 2px solid red;
+    margin: 20px;
+    background-color: bisque;
+}
+table tr td{
+    border: 2px solid blue;
+    padding: 10px;
+}
+table tr> th{
+    border: 2px solid black;
+    padding: 20px;
+}
+.center {
+    margin: auto;
+
+  }
+main >section{
+    
+}
